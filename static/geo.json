@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "cemberlitas",
+      "type": "Feature",
+      "properties": {
+        "name": "Çemberlitaş",
+        "description": "Çemberlitaş, İstanbul'un tarihi yarımadasında yer alan ve Bizans İmparatoru I. Konstantin tarafından 330 yılında yaptırılan bir sütundur. Konstantin Sütunu olarak da bilinir. Çemberlitaş, Bizans İmparatorluğu'nun önemli sembollerinden biridir ve zamanla etrafına yapılan ilavelerle bugünkü halini almıştır. Osmanlı döneminde de önemini korumuş ve özellikle 1779 yılında çıkan büyük yangının ardından Sultan III. Mustafa tarafından etrafına demir çemberler eklenmiştir, bu nedenle Çemberlitaş adıyla anılmaktadır. Tarihi ve kültürel değeri yüksek olan Çemberlitaş, İstanbul'un en bilinen anıtlarından biridir ve turistlerin sıkça ziyaret ettiği bir noktadır.",
+        "image": "http://www.fatih.gov.tr/kurumlar/fatih.gov.tr/icerik_resim/%C3%A7emberlita%C5%9F.jpg",
+        "link": "http://www.fatih.gov.tr/cemberlitas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.971156165158618, 41.008567485567085]
+      }
+    },
+    {
+      "id": "topkapi_sarayi",
+      "type": "Feature",
+      "properties": {
+        "name": "Topkapı Sarayı",
+        "description": "Topkapı Sarayı, İstanbul'un tarihi yarımadasında, Boğaziçi ve Haliç arasında yer alan, Osmanlı İmparatorluğu'nun yaklaşık 400 yıl boyunca yönetim merkezi ve padişahların resmi ikametgâhı olarak kullanılan bir saray kompleksidir. Fatih Sultan Mehmet tarafından 1478 yılında inşa ettirilmiştir.",
+        "image": "https://muzeler.org/images/google-place-images/topkapi-sarayi-muzesi.jpg",
+        "link": "https://www.millisaraylar.gov.tr/Lokasyon/2/topkapi-sarayi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.984229432993942, 41.012861437274864]
+      }
+    },
+    {
+      "id": "kapali_carsi",
+      "type": "Feature",
+      "properties": {
+        "name": "Kapalı Çarşı",
+        "description": "Kapalı Çarşı, İstanbul'un tarihi yarımadasında yer alan ve dünyanın en büyük ve en eski kapalı çarşılarından biridir. 15. yüzyılda, Fatih Sultan Mehmet döneminde inşa edilmiştir ve günümüzde de önemli bir ticaret merkezi olarak faaliyet göstermektedir. Yaklaşık 30.700 metrekarelik bir alanı kaplayan çarşı, 60'tan fazla sokak ve 4.000'den fazla dükkân barındırmaktadır.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgeAS9P26WzjgC4V0-iyWAvNbH0Smug6yVvw&s",
+        "link": "https://istanbuluseyret.ibb.gov.tr/kapali-carsi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.967953500000874, 41.01034743148924]
+      }
+    },
+    {
+      "id": "yerebatan_sarnici",
+      "type": "Feature",
+      "properties": {
+        "name": "Yerebatan Sarnıcı",
+        "description": "Yerebatan Sarnıcı, İstanbul'un tarihi yarımadasında bulunan ve Bizans dönemine ait büyük bir su sarnıcıdır. İstanbul'un en büyük sarnıcı olup, 6. yüzyılda inşa edilmiştir. Yapı, binlerce ton su depolayabilen ve 336 adet sütunla desteklenen büyük ölçekli bir yapıdır.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvVbZlLefv_Qtj9KIG-nVBpzWC02vccb3hw&s",
+        "link": "https://yerebatan.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.977864341940517, 41.00824574140725]
+      }
+    },
+    {
+      "id": "galata_kulesi",
+      "type": "Feature",
+      "properties": {
+        "name": "Galata Kulesi",
+        "description": "İstanbul'un Galata semtinde bulunan ve şehrin en eski kulelerinden biridir. Genellikle Bizans döneminde inşa edildiği düşünülen kule, günümüzde panoramik İstanbul manzarası sunan bir gözlem noktası olarak kullanılmaktadır.",
+        "image": "https://www.kulturportali.gov.tr/contents/images/%C4%B0STANBUL-GALATA%20KULES%C4%B0-G%C3%9CLCAN%20ACAR%20(4).jpg",
+        "link": "https://galatakulesi.gov.tr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.97421554380614, 41.02563505740201]
+      }
+    },
+    {
+      "id": "rumeli_hisari",
+      "type": "Feature",
+      "properties": {
+        "name": "Rumeli Hisarı",
+        "description": "İstanbul Boğazı'nın Anadolu Yakası'nda bulunan bir Osmanlı kale surları sistemi olan Rumeli Hisarı, Fatih Sultan Mehmet tarafından 1452 yılında inşa edilmiştir. Boğazın stratejik noktasında yer alan hisar, İstanbul'un fethi öncesinde stratejik bir öneme sahipti.",
+        "image": "https://www.kulturportali.gov.tr/contents/images/%C4%B0STANBUL-RUMEL%C4%B0%20H%C4%B0SARI-G%C3%9CLCAN%20ACAR%20(1).jpg",
+        "link": "https://muze.gov.tr/muze-detay?sectionId=HIS01&distId=MRK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.056191435109838, 41.08461895947815]
+      }
+    },
+    {
+      "id": "yedikule_zindanlari",
+      "type": "Feature",
+      "properties": {
+        "name": "Yedikule Zindanları",
+        "description": "İstanbul'un Yedikule semtinde bulunan ve Osmanlı döneminde kullanılan bir zindan kompleksidir. Zindanlar, genellikle politik tutsaklar ve eski devlet görevlileri için kullanılmıştır. Zindanlar, günümüzde tarihi önemi nedeniyle ziyaretçilere açıktır.",
+        "image": "https://www.fatih.bel.tr/webfiles/userfiles/images/497b105ce60545779add7c639273f4ea.jpeg",
+        "link": "https://gezimanya.com/istanbul/gezilecek-yerler/yedikule-zindanlari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.92321082954868, 40.993226464870844]
+      }
+    },
+    {
+      "id": "kiz_kulesi",
+      "type": "Feature",
+      "properties": {
+        "name": "Kız Kulesi",
+        "description": "İstanbul Boğazı'nın ortasında bulunan küçük ada üzerinde yer alan bir kuledir. Tarihi geçmişi Bizans dönemine kadar uzanan Kız Kulesi, farklı dönemlerde fener, karakol, gözetleme noktası ve günümüzde ise restoran olarak kullanılmıştır. Efsanelere konu olmuş ve İstanbul'un sembol yapılarından biridir.",
+        "image": "https://www.flypgs.com/blog/wp-content/uploads/2019/02/kiz-kulesinin-hikayesi.jpg",
+        "link": "https://kizkulesi.gov.tr/en"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.004091752947716, 41.02100658159375]
+      }
+    },
+    {
+      "id": "dolmabahce_sarayi",
+      "type": "Feature",
+      "properties": {
+        "name": "Dolmabahçe Sarayı",
+        "description": "İstanbul'un Beşiktaş semtinde, Boğaziçi kıyısında bulunan ve Osmanlı dönemi sonrası döneminin önemli saraylarından biridir. 19. yüzyılın ortalarında Sultan Abdülmecid tarafından inşa ettirilen saray, Batı tarzında bir mimariye sahiptir ve zamanında Osmanlı Devleti'nin yönetim merkezi olarak kullanılmıştır.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcVFf6f3tlzo7yW2e2jcuFZ5WMbVK2PCtvCg&s",
+        "link": "https://www.millisaraylar.gov.tr/Lokasyon/3/Dolmabahce-Sarayi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.999542802933206, 41.03868592132639]
+      }
+    }
+  ]
+}

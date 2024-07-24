@@ -1,0 +1,156 @@
+/* Genel Stiller */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Map Container */
+#map {
+  height: 100vh; /* Yüksekliği tam ekran yapar */
+  width: 100%;   /* Genişliği tam ekran yapar */
+}
+
+/* Button Container */
+.button-container {
+  margin: 20px auto; /* Merkezde hizalama için */
+  display: flex;
+  justify-content: center;
+}
+
+/* Buttons */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* Chat Container */
+.chat-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  width: 60%;
+  max-width: 800px;
+  position: relative; /* Konumlandırma için */
+  z-index: 1; /* Üst üste binmeyi engellemek için */
+}
+
+/* Chat Heading */
+.chat-container h1 {
+  color: #333;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Chat Box */
+.chat-box {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.user-message,
+.ai-response {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.user-message {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.ai-response {
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.satellite {
+  
+}

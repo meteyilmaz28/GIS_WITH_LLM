@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SANAT ESERİM</title>
+  <meta property="og:description" content="Initialize a map in an HTML element with MapLibre GL JS." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.2.0/dist/maplibre-gl.css" />
+  <script src="https://unpkg.com/maplibre-gl@3.2.0/dist/maplibre-gl.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <script defer src="{{ url_for('static', filename='cbs.js') }}"></script>
+</head>
+<body style="background-color: aqua;">
+  <div id="map" style="height: 928px; width: 65%; float: left;"></div>
+  <div class="button-container" style="float: left; margin-left: 20px;">
+    <button id="fly">Fly</button>
+    <button id="satellite">Satellite</button>
+  </div>
+
+  <!-- Chat form -->
+  <div class="chat-container" style="margin: 20px; float: left; width: 30%;">
+    <h1>Chat with Gemini AI</h1>
+    <form method="POST">
+      <label for="prompt">Enter your prompt:</label><br>
+      <input type="text" id="prompt" name="prompt" required><br><br>
+      <input type="submit" value="Send">
+    </form>
+    {% if user_input %}
+      <h2>Your Prompt:</h2>
+      <p>{{ user_input }}</p>
+      <h2>AI Response:</h2>
+      <p>{{ response.text }}</p>
+    {% endif %}
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+  </div>
+</body>
+</html>
